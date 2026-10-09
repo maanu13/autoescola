@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Escola PHP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="div1">
+            <h1>Cadastre um aluno:</h1>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="container_formulario">
+            <form action="http://localhost/autoescola/back/index.php/alunos/create" method="post">
+                <input type="text" name="nomeAluno" placeholder="Digite o nome do aluno:"/>
+                <br>
+                <input type="text" name="emailAluno" placeholder="E-mail:"/>
+                <br>
+                <input type="text" name="telefoneAluno" placeholder="Telefone:"/>
+                <br>
+                Data de nascimento:
+                <br>
+                <input type="date" name="dataNascimentoAluno" placeholder="Data de nascimento:"/>
+                <br>
+                <input type="submit" name="enviar" id="botao"/>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
